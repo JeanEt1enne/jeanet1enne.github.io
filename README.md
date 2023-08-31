@@ -1,7 +1,7 @@
 <html>
     <head>
                 <title>Sorteio de Números</title>
-                <style>
+  <style>
                             @keyframes colorAnimation {
                                 0%, 100% { background-color: transparent; }
                                 50% { background-color: #ffcc00; }
@@ -13,10 +13,10 @@
                                 margin: 0;
                                 padding: 0;
                             }
-                            body {
+      body {
                                 width: 100vw;
                                 height: 100vh;
-                                background-image: url('./WhatsApp\ Image\ 2023-08-31\ at\ 13.46.33.jpeg');
+             background-image: url('./WhatsApp\ Image\ 2023-08-31\ at\ 13.46.33.jpeg');
                             background-position: 100%;
                                 background-size:50% ;
                                 background-repeat: no-repeat;
@@ -49,17 +49,17 @@
                             button:hover {
                                 background-color: #0056b3;   
                             }
-                            #sudoku {
+       #sudoku {
                                 width: 100px;
                                 height: 300px;
                                 display: grid ;
-                                grid-template-columns: repeat(20, 100fr);
+                             grid-template-columns: repeat(20, 100fr);
                                 grid-gap: 10px;
                                 margin: 20px auto;
                                 margin-left: 0;
                                 margin-right: 300; 
                             }
-                            .numero {
+                 .numero {
                                 display: flex;
                                 align-items: center;
                                 justify-content: center;
@@ -85,22 +85,22 @@
                                 font-weight: bold;
                                 margin-right: 600px;
                             }
-                </style>
-                <script>
-                    function sortearNumero() {
-                        const numeros = document.querySelectorAll('.numero');
-                        const numeroSorteado = Math.floor(Math.random() * numeros.length);
-                        const resultadoDiv = document.getElementById("resultado");
-                        numeros.forEach(n => n.classList.remove('selected', 'sorteado'));
-                        numeros[numeroSorteado].classList.add('selected', 'sorteado');
-                        resultadoDiv.innerHTML = `Número sorteado: <span style="color:  #ff0000;">${numeros[numeroSorteado].textContent}</span>`;   
+</style>
+        <script>
+           function sortearNumero() {
+         const numeros = document.querySelectorAll('.numero');
+          const numeroSorteado = Math.floor(Math.random() * numeros.length);
+           const resultadoDiv = document.getElementById("resultado");
+           numeros.forEach(n => n.classList.remove('selected', 'sorteado'));
+          numeros[numeroSorteado].classList.add('selected', 'sorteado');
+          resultadoDiv.innerHTML = `Número sorteado: <span style="color:  #ff0000;">${numeros[numeroSorteado].textContent}</span>`;   
                     }
-                </script>
-    </head>
-             <body>
-                               <h1>Sorteio de Números</h1>
-                             <div id="sudoku">
-                                                <div class="numero" onclick="selecionarNumero(this)">1</div>
+         </script>
+</head>
+     <body>
+             <h1>Sorteio de Números</h1>
+                 <div id="sudoku">
+                             <div class="numero" onclick="selecionarNumero(this)">1</div>
                                                 <div class="numero" onclick="selecionarNumero(this)">2</div>
                                                 <div class="numero" onclick="selecionarNumero(this)">3</div>
                                                 <div class="numero" onclick="selecionarNumero(this)">4</div>
@@ -385,24 +385,24 @@
                                                 <div class="numero" onclick="selecionarNumero(this)">283</div>
                                                 <div class="numero" onclick="selecionarNumero(this)">284</div>
                                                 <div class="numero" onclick="selecionarNumero(this)">285</div>
-                                                <div class="numero" onclick="selecionarNumero(this)">286</div>
-                                                <div class="numero" onclick="selecionarNumero(this)">287</div>
-                                                <div class="numero" onclick="selecionarNumero(this)">288</div>
-                                                <div class="numero" onclick="selecionarNumero(this)">289</div>
-                                                <div class="numero" onclick="selecionarNumero(this)">290</div>
-                                                <div class="numero" onclick="selecionarNumero(this)">291</div>
-                                                <div class="numero" onclick="selecionarNumero(this)">292</div>
-                                                <div class="numero" onclick="selecionarNumero(this)">293</div>
-                                                <div class="numero" onclick="selecionarNumero(this)">294</div>
-                                                <div class="numero" onclick="selecionarNumero(this)">295</div>
-                                                <div class="numero" onclick="selecionarNumero(this)">296</div>
-                                                <div class="numero" onclick="selecionarNumero(this)">297</div>
-                                                <div class="numero" onclick="selecionarNumero(this)">298</div>
-                                                <div class="numero" onclick="selecionarNumero(this)">299</div>
-                                                <div class="numero" onclick="selecionarNumero(this)">300</div> 
-                             </div>
-                        <div id="resultado"></div>
-                        <button onclick="sortearNumero()">Sortear Número</button> 
-                        <div class='quadrado'></div>
-             </body>
+                        <div class="numero" onclick="selecionarNumero(this)">286</div>
+                             <div class="numero" onclick="selecionarNumero(this)">287</div>
+                                <div class="numero" onclick="selecionarNumero(this)">288</div>
+                             <div class="numero" onclick="selecionarNumero(this)">289</div>
+                          <div class="numero" onclick="selecionarNumero(this)">290</div>
+                     <div class="numero" onclick="selecionarNumero(this)">291</div>
+                    <div class="numero" onclick="selecionarNumero(this)">292</div>
+                      <div class="numero" onclick="selecionarNumero(this)">293</div>
+                           <div class="numero" onclick="selecionarNumero(this)">294</div>
+                    <div class="numero" onclick="selecionarNumero(this)">295</div>
+                    <div class="numero" onclick="selecionarNumero(this)">296</div>
+                    <div class="numero" onclick="selecionarNumero(this)">297</div>
+                <div class="numero" onclick="selecionarNumero(this)">298</div>
+                <div class="numero" onclick="selecionarNumero(this)">299</div>
+                 <div class="numero" onclick="selecionarNumero(this)">300</div> 
+                  </div>
+                    <div id="resultado"></div>
+                     <button onclick="sortearNumero()">Sortear Número</button> 
+                   <div class='quadrado'></div>
+          </body>
 </html>
