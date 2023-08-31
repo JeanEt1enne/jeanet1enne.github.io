@@ -1,4 +1,4 @@
-<html
+<html>
        <head>
     <title>Sorteio de Números</title>
     <style>
@@ -402,10 +402,8 @@
          <div class="numero" onclick="selecionarNumero(this)">298</div>
          <div class="numero" onclick="selecionarNumero(this)">299</div>
          <div class="numero" onclick="selecionarNumero(this)">300</div>   
-    </div>
-    <div id="resultado"></div>
-    <button onclick="sortearNumero()">Sortear Número</button> 
-<div class='quadrado'></div>
-
-</body>
+           <div id="resultado"></div>
+           <button onclick="sortearNumero()">Sortear Número</button> 
+       <div class='quadrado'></div>
+       </body>
 </html>
