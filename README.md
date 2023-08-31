@@ -1,12 +1,11 @@
-        <!DOCTYPE html>
-        <html>
-        <head>
+<html>
+<head>
     <title>Sorteio de Números</title>
     <style>
         /* Estilos... */
-                @keyframes colorAnimation {
-                    0%, 100% { background-color: transparent; }
-                    50% { background-color: #ffcc00; }
+        @keyframes colorAnimation {
+            0%, 100% { background-color: transparent; }
+            50% { background-color: #ffcc00; }
         }
 
         body {
@@ -25,27 +24,23 @@
             background-size:50% ;
             background-repeat: no-repeat;
            
-        }
+              }
 
         div.quadrado
              {
-                  display: inline-block;
-                      border: 2px solid black;
-                      border-radius: 10px;
-                          background-color: lightblue;
-                          width: 100%;
-                          height: 200%;
-                              background-image: url(./WhatsApp\ Image\ 2023-08-31\ at\ 13.46.33.jpeg);
-                          background-size: 50%;
-                      background-repeat: repeat;
+                 display: inline-block;
+                 border: 2px solid black;
+                 border-radius: 10px;
+                background-color: lightblue;
+                 width: 100%;
+                  height: 200%;
+                 background-image: url(./WhatsApp\ Image\ 2023-08-31\ at\ 13.46.33.jpeg);
+                 background-size: 50%;
+                background-repeat: repeat;
   
 
-        }
+             }
 
-        .item {
-              border: 1px solid black;
-                  padding: 10px;
-            }
 
         
 
@@ -125,8 +120,8 @@
             
         }
     </script>
-    </head>
-    <body>
+</head>
+<body>
    
 
 
@@ -442,5 +437,5 @@
 
     <div class='quadrado'></div>
 
-        </body>
-        </html>
+</body>
+</html>
