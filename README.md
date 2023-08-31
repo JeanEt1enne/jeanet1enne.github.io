@@ -1,12 +1,12 @@
-<!DOCTYPE html>
-<html>
-<head>
+        <!DOCTYPE html>
+        <html>
+        <head>
     <title>Sorteio de Números</title>
     <style>
         /* Estilos... */
-        @keyframes colorAnimation {
-            0%, 100% { background-color: transparent; }
-            50% { background-color: #ffcc00; }
+                @keyframes colorAnimation {
+                    0%, 100% { background-color: transparent; }
+                    50% { background-color: #ffcc00; }
         }
 
         body {
