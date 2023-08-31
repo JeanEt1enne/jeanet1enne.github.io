@@ -1,6 +1,5 @@
-<!DOCTYPE html>
-<html>
-<head>
+<html
+       <head>
     <title>Sorteio de Números</title>
     <style>
         /* Estilos... */
@@ -35,8 +34,7 @@
                  background-size: 50%;
                 background-repeat: repeat;
      }
-        
-   h1 {
+          h1 {
             color: #333;
             margin-top: 20px;
         }
