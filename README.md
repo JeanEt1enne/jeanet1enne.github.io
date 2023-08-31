@@ -1,5 +1,5 @@
-<html>
-<head>
+	<html>
+		<head>
     <title>Sorteio de Números</title>
     <style>
         /* Estilos... */
@@ -120,8 +120,8 @@
             
         }
     </script>
-</head>
-<body>
+			</head>
+		<body>
    
 
 
@@ -437,5 +437,5 @@
 
     <div class='quadrado'></div>
 
-</body>
-</html>
+			</body>
+		</html>
